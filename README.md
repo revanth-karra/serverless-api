@@ -179,6 +179,6 @@ Steps to create a DynamoDB table
 5. Primary key – id (string)
 6. Choose Create.
 
+![dynamo-create-table](https://user-images.githubusercontent.com/52368773/215890798-8afcd25a-71fc-48cd-af55-19a147836c6e.png)
 
-
-
+![dynamodb-table-creation](https://user-images.githubusercontent.com/52368773/215891199-923ed684-209a-4bcd-9ef3-d2b8facc5169.png)
