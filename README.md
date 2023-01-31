@@ -86,8 +86,12 @@ Steps involes:
 
 ![create-lambda-functions](https://user-images.githubusercontent.com/52368773/215882284-96c03460-5562-455c-970e-3b5ba5d9a9bd.png)
 
-2. Select "Author from scratch". Use name LambdaFunctionOverHttps , select Python 3.7 as Runtime. Under Permissions, select "Use an existing role", and select lambda-apigateway-role that we created, from the drop down
+2. Select "Author from scratch". Use name LambdaFunctionOverHttps , select Python 3.8 as Runtime. Under Permissions, select "Use an existing role", and select lambda-apigateway-role that we created, from the drop down
 
+3. Click "Create function"
 
+![create-lambda-functionss](https://user-images.githubusercontent.com/52368773/215885630-976f2d59-7e71-457b-8a09-0b63bb5d6c14.png)
+
+4. Replace the boilerplate coding with the following code and click "Save"
 
 
