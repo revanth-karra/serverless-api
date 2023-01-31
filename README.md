@@ -94,7 +94,8 @@ Steps involes:
 
 4. Replace the boilerplate coding with the following code and click "Save"
 
-`from __future__ import print_function
+```
+from __future__ import print_function
 
 import boto3
 import json
@@ -129,7 +130,8 @@ def lambda_handler(event, context):
     if operation in operations:
         return operations[operation](event.get('payload'))
     else:
-        raise ValueError('Unrecognized operation "{}"'.format(operation))`
+        raise ValueError('Unrecognized operation "{}"'.format(operation))
+ ```
  
 ![lambda-function-code](https://user-images.githubusercontent.com/52368773/215887018-4cdf96c4-6cc2-4783-ab26-f12f18f379cb.png)
 
