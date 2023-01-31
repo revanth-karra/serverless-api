@@ -275,6 +275,8 @@ To run this from Postman, select "POST" , paste the API invoke url. Then under "
 
 ![lambda-api-gateway](https://user-images.githubusercontent.com/52368773/215899333-1c7d2340-43d5-4c22-8d7b-8054e3285ae7.png)
 
+Payload
+
 ```
 
 {
@@ -285,8 +287,6 @@ To run this from Postman, select "POST" , paste the API invoke url. Then under "
 }
 
 ```
-
-Payload
 
 ![postman-list](https://user-images.githubusercontent.com/52368773/215900682-adee865d-4679-4ab1-a2dd-f34cda2f6f96.png)
 
