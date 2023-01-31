@@ -15,7 +15,8 @@ The POST method on the DynamoDBManager supports the following DynamoDB operation
 
 sample request payload for a DynamoDB create item
 
-`{
+```
+{
     "operation": "create",
     "tableName": "lambda-apigateway",
     "payload": {
@@ -24,11 +25,14 @@ sample request payload for a DynamoDB create item
             "name": "Bob"
         }
     }
-}`
+}
+
+```
 
 sample request payload for a DynamoDB read item
 
-`{
+```
+{
     "operation": "read",
     "tableName": "lambda-apigateway",
     "payload": {
@@ -36,7 +40,8 @@ sample request payload for a DynamoDB read item
             "id": "1"
         }
     }
-}`
+}
+```
 
 # Configuration steps
 
@@ -49,7 +54,8 @@ o create an execution role
 5. Role name – lambda-apigateway-role.
 6. Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function needs to write data to   DynamoDB and upload logs.
 
-`{
+```
+{
 "Version": "2012-10-17",
 "Statement": [
 {
@@ -76,7 +82,8 @@ o create an execution role
   "Effect": "Allow"
 }
 ]
-}`
+}
+```
 
 # Create Lambda Function
 
