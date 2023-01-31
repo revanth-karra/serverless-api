@@ -99,7 +99,7 @@ Steps involes:
 
 ![create-lambda-functionss](https://user-images.githubusercontent.com/52368773/215885630-976f2d59-7e71-457b-8a09-0b63bb5d6c14.png)
 
-4. Replace the boilerplate coding with the following code and click "Save"
+4. Replace the boilerplate coding with the following code and click "Deploy"
 
 ```
 from __future__ import print_function
@@ -141,4 +141,44 @@ def lambda_handler(event, context):
  ```
  
 ![lambda-function-code](https://user-images.githubusercontent.com/52368773/215887018-4cdf96c4-6cc2-4783-ab26-f12f18f379cb.png)
+
+#   Testing Lambda Function
+
+1. Click on "Select a test event" and click "Configure test events"
+
+![configuring-test-event](https://user-images.githubusercontent.com/52368773/215889078-6cc3c16e-6acc-4122-8c04-7a022d825aef.png)
+
+2. Paste the following JSON into the event. The field "operation" indictates what this lambda function will perform. Here, it's simply returns the payload from input event as output. Click "Create" to save
+
+```
+
+{
+    "operation": "echo",
+    "payload": {
+        "somekey1": "somevalue1",
+        "somekey2": "somevalue2"
+    }
+}
+
+```
+
+![configuring-test-event-code](https://user-images.githubusercontent.com/52368773/215889762-5dd78ba6-23fc-4fa6-8ec9-8b065667b638.png)
+
+3. Click "Test", and it will execute the test event. You should see the output in the console
+
+We're all set to create DynamoDB table and an API using our lambda !!!
+
+# Create DynamoDB Table
+
+Steps to create a DynamoDB table
+
+1. Open the DynamoDB console.
+2. Choose Create table.
+3. Create a table with the following settings.
+4. Table name – lambda-apigateway
+5. Primary key – id (string)
+6. Choose Create.
+
+
+
 
