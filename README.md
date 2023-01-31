@@ -286,7 +286,11 @@ To run this from Postman, select "POST" , paste the API invoke url. Then under "
 
 ```
 
+Payload
+
 ![postman-list](https://user-images.githubusercontent.com/52368773/215900682-adee865d-4679-4ab1-a2dd-f34cda2f6f96.png)
+
+Response
 
 ![postman-response](https://user-images.githubusercontent.com/52368773/215900630-3cb313c3-0133-43f4-977f-c086a023d6cb.png)
 
